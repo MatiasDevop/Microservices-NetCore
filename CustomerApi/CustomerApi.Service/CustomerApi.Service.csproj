@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerApi.Data\CustomerApi.Data.csproj" />
+    <ProjectReference Include="..\CustomerApi.Domain\CustomerApi.Domain.csproj" />
+    <ProjectReference Include="..\CustomerApi.Messaging.Send\CustomerApi.Messaging.Send.csproj" />
+  </ItemGroup>
+
+</Project>

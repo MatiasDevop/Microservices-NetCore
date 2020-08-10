@@ -1,0 +1,370 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Microservices Net Core\\CustomerApi\\CustomerApi\\CustomerApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj",
+        "projectName": "CustomerApi.Data",
+        "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj",
+        "packagesPath": "C:\\Users\\nestdev\\.nuget\\packages\\",
+        "outputPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nestdev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj": {
+                "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj",
+        "projectName": "CustomerApi.Domain",
+        "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\nestdev\\.nuget\\packages\\",
+        "outputPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nestdev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj",
+        "projectName": "CustomerApi.Messaging.Send",
+        "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj",
+        "packagesPath": "C:\\Users\\nestdev\\.nuget\\packages\\",
+        "outputPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Messaging.Send\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nestdev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj": {
+                "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Service\\CustomerApi.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Service\\CustomerApi.Service.csproj",
+        "projectName": "CustomerApi.Service",
+        "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Service\\CustomerApi.Service.csproj",
+        "packagesPath": "C:\\Users\\nestdev\\.nuget\\packages\\",
+        "outputPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nestdev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj": {
+                "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj"
+              },
+              "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj": {
+                "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj"
+              },
+              "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj": {
+                "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Microservices Net Core\\CustomerApi\\CustomerApi\\CustomerApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi\\CustomerApi.csproj",
+        "projectName": "CustomerApi",
+        "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi\\CustomerApi.csproj",
+        "packagesPath": "C:\\Users\\nestdev\\.nuget\\packages\\",
+        "outputPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nestdev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj": {
+                "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Data\\CustomerApi.Data.csproj"
+              },
+              "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj": {
+                "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Domain\\CustomerApi.Domain.csproj"
+              },
+              "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj": {
+                "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Messaging.Send\\CustomerApi.Messaging.Send.csproj"
+              },
+              "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Service\\CustomerApi.Service.csproj": {
+                "projectPath": "D:\\Microservices Net Core\\CustomerApi\\CustomerApi.Service\\CustomerApi.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

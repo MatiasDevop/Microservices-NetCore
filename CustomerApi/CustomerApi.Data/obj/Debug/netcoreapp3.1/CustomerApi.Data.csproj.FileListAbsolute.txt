@@ -1,0 +1,12 @@
+D:\Microservices Net Core\CustomerApi\CustomerApi.Data\bin\Debug\netcoreapp3.1\CustomerApi.Data.deps.json
+D:\Microservices Net Core\CustomerApi\CustomerApi.Data\bin\Debug\netcoreapp3.1\CustomerApi.Data.dll
+D:\Microservices Net Core\CustomerApi\CustomerApi.Data\bin\Debug\netcoreapp3.1\CustomerApi.Data.pdb
+D:\Microservices Net Core\CustomerApi\CustomerApi.Data\bin\Debug\netcoreapp3.1\CustomerApi.Domain.dll
+D:\Microservices Net Core\CustomerApi\CustomerApi.Data\bin\Debug\netcoreapp3.1\CustomerApi.Domain.pdb
+D:\Microservices Net Core\CustomerApi\CustomerApi.Data\obj\Debug\netcoreapp3.1\CustomerApi.Data.csprojAssemblyReference.cache
+D:\Microservices Net Core\CustomerApi\CustomerApi.Data\obj\Debug\netcoreapp3.1\CustomerApi.Data.csproj.CoreCompileInputs.cache
+D:\Microservices Net Core\CustomerApi\CustomerApi.Data\obj\Debug\netcoreapp3.1\CustomerApi.Data.AssemblyInfoInputs.cache
+D:\Microservices Net Core\CustomerApi\CustomerApi.Data\obj\Debug\netcoreapp3.1\CustomerApi.Data.AssemblyInfo.cs
+D:\Microservices Net Core\CustomerApi\CustomerApi.Data\obj\Debug\netcoreapp3.1\CustomerApi.Data.csproj.CopyComplete
+D:\Microservices Net Core\CustomerApi\CustomerApi.Data\obj\Debug\netcoreapp3.1\CustomerApi.Data.dll
+D:\Microservices Net Core\CustomerApi\CustomerApi.Data\obj\Debug\netcoreapp3.1\CustomerApi.Data.pdb

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerApi</name>
+    </assembly>
+    <members>
+        <member name="M:CustomerApi.Controllers.v1.CustomerController.Customer(CustomerApi.Models.v1.CreateCustomerModel)">
+            <summary>
+            Action to create a new customer in the database
+            </summary>
+            <param name="createCustomerModel">Model to create a customer</param>
+            <returns>Returns the created customer</returns>
+            /// <response code="200">Returned if the customer was created</response>
+            /// <response code="400">Returned if the model couldn't be parsed or the customer couldn't be saved</response>
+            /// <response code="422">Returned when the validation failed</response>
+        </member>
+        <member name="M:CustomerApi.Controllers.v1.CustomerController.Customer(CustomerApi.Models.v1.UpdateCustomerModel)">
+            <summary>
+            Action to update an existing customer
+            </summary>
+            <param name="updateCustomerModel">Model to update and existing customer</param>
+            <returns></returns>
+            /// <response code="200">Returned if the customer was updated</response>
+            /// <response code="400">Returned if the model couldn't be parsed or the customer couldn't be found</response>
+            /// <response code="422">Returned when the validation failed</response>
+        </member>
+    </members>
+</doc>

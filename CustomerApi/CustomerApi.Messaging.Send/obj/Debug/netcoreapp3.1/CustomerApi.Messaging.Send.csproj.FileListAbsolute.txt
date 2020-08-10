@@ -1,0 +1,12 @@
+D:\Microservices Net Core\CustomerApi\CustomerApi.Messaging.Send\bin\Debug\netcoreapp3.1\CustomerApi.Messaging.Send.deps.json
+D:\Microservices Net Core\CustomerApi\CustomerApi.Messaging.Send\bin\Debug\netcoreapp3.1\CustomerApi.Messaging.Send.dll
+D:\Microservices Net Core\CustomerApi\CustomerApi.Messaging.Send\bin\Debug\netcoreapp3.1\CustomerApi.Messaging.Send.pdb
+D:\Microservices Net Core\CustomerApi\CustomerApi.Messaging.Send\bin\Debug\netcoreapp3.1\CustomerApi.Domain.dll
+D:\Microservices Net Core\CustomerApi\CustomerApi.Messaging.Send\bin\Debug\netcoreapp3.1\CustomerApi.Domain.pdb
+D:\Microservices Net Core\CustomerApi\CustomerApi.Messaging.Send\obj\Debug\netcoreapp3.1\CustomerApi.Messaging.Send.csprojAssemblyReference.cache
+D:\Microservices Net Core\CustomerApi\CustomerApi.Messaging.Send\obj\Debug\netcoreapp3.1\CustomerApi.Messaging.Send.csproj.CoreCompileInputs.cache
+D:\Microservices Net Core\CustomerApi\CustomerApi.Messaging.Send\obj\Debug\netcoreapp3.1\CustomerApi.Messaging.Send.AssemblyInfoInputs.cache
+D:\Microservices Net Core\CustomerApi\CustomerApi.Messaging.Send\obj\Debug\netcoreapp3.1\CustomerApi.Messaging.Send.AssemblyInfo.cs
+D:\Microservices Net Core\CustomerApi\CustomerApi.Messaging.Send\obj\Debug\netcoreapp3.1\CustomerApi.Messaging.Send.csproj.CopyComplete
+D:\Microservices Net Core\CustomerApi\CustomerApi.Messaging.Send\obj\Debug\netcoreapp3.1\CustomerApi.Messaging.Send.dll
+D:\Microservices Net Core\CustomerApi\CustomerApi.Messaging.Send\obj\Debug\netcoreapp3.1\CustomerApi.Messaging.Send.pdb
